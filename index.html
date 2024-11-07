@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación de días de estudio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Optimización de Días de Estudio</h1>
+    <h2 class="center-text">Usted cuenta con siete días para preparar los 
+        exámenes finales de cuatro asignaturas y quiere asignar su tiempo de estudio de la manera más eficiente posible. Sabe que necesita por lo menos un día para cada asignatura y quiere concentrarse sólo en una cada día. Como está haciendo un curso de programación dinámica, decide aplicarla para hacer estas asignaciones que maximicen el total de puntos obtenidos en las cuatro asignaturas. Estima que las distintas asignaciones en días de estudio le redituarán puntos de calificación según la siguiente tabla:</h2>
+    
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Día de Estudio</th>
+                    <th>Curso 1</th>
+                    <th>Curso 2</th>
+                    <th>Curso 3</th>
+                    <th>Curso 4</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr>
+                    <td>1 dia</td>
+                    <td><input type="number" id="curso1_dia1" value="1"></td>
+                    <td><input type="number" id="curso2_dia1" value="5"></td>
+                    <td><input type="number" id="curso3_dia1" value="4"></td>
+                    <td><input type="number" id="curso4_dia1" value="4"></td>
+                </tr>
+                <tr>
+                    <td>2 dia</td>
+                    <td><input type="number" id="curso1_dia2" value="3"></td>
+                    <td><input type="number" id="curso2_dia2" value="6"></td>
+                    <td><input type="number" id="curso3_dia2" value="6"></td>
+                    <td><input type="number" id="curso4_dia2" value="4"></td>
+                </tr>
+                <tr>
+                    <td>3 dia</td>
+                    <td><input type="number" id="curso1_dia3" value="6"></td>
+                    <td><input type="number" id="curso2_dia3" value="8"></td>
+                    <td><input type="number" id="curso3_dia3" value="7"></td>
+                    <td><input type="number" id="curso4_dia3" value="5"></td>
+                </tr>
+                <tr>
+                    <td>4 dia</td>
+                    <td><input type="number" id="curso1_dia4" value="8"></td>
+                    <td><input type="number" id="curso2_dia4" value="8"></td>
+                    <td><input type="number" id="curso3_dia4" value="9"></td>
+                    <td><input type="number" id="curso4_dia4" value="8"></td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+            
+        </div>
+    </div>
+    <button id="calcularBtn">Calcular</button>
+        <div id="tablesContainer"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+

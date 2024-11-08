@@ -33,6 +33,7 @@ button {
   margin: 20px;
   font-size: 16px;
   cursor: pointer;
+  background-color: #06f933;
 }
 
 #tablesContainer {

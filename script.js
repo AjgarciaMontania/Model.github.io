@@ -41,8 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const maxInRow = (row) => {
       const values = [row.curso1, row.curso2, row.curso3, row.curso4];
       const maxValue = Math.max(...values.filter(value => !isNaN(value)));
-      const indices = values
-        .map((value, index) => value === maxValue ? index + 1 : -1)
+      const indices = values.map((value, index) => value === maxValue ? index + 1 : -1)
         .filter(index => index !== -1)
         .join('-');
       return { maxValue, indices };
@@ -256,6 +255,7 @@ document.addEventListener("DOMContentLoaded", function() {
               `;
               
             };
+            
             
             
             
